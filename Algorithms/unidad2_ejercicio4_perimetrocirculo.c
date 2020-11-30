@@ -2,15 +2,14 @@
 //el perimetro de una circuferencia.
 
 #include <stdio.h>
-#include <stdlib.h>
 #include <math.h>
 #define PI 3.1415926
 
 int main()
 {
-    float radio,perimetro;
+    float radio, perimetro;
     printf("Ingrese el valor del radio dle circulo: ");
-    scanf("%f",&radio);
-    perimetro=PI*(radio*2);
-    printf("El perimetro del circulo es: %.4f",perimetro);
+    scanf("%f", &radio);
+    perimetro = PI * (radio * 2);
+    printf("El perimetro del circulo es: %.4f", perimetro);
 }

@@ -10,20 +10,21 @@
 
 int main()
 {
-    int carro_a,carro_b;
-    float dep_a,dep_b,total;
+    int carro_a, carro_b;
+    float dep_a, dep_b, total;
 
     printf("ingrese cantidad de vehiculos A: ");
-    scanf("%i",&carro_a);
-    printf("Ingrese cantidad de vehiculos B: ");
-    scanf("%i",&carro_b);
+    scanf("%i", &carro_a);
     printf("ingrese cantidad de depositos A: ");
-    scanf("%f",&dep_a);
+    scanf("%f", &dep_a);
+    printf("Ingrese cantidad de vehiculos B: ");
+    scanf("%i", &carro_b);
     printf("Ingrese cantidad de depositos B: ");
-    scanf("%f",&dep_b);
+    scanf("%f", &dep_b);
 
-    total=(carro_a*dep_a)+(carro_b*dep_b);
+    total = (carro_a * dep_a) + (carro_b * dep_b);
 
-    printf("El combustible necesario es %.2f litros",total);
+    printf("El combustible necesario es %.2f litros", total);
+
     return 0;
 }
