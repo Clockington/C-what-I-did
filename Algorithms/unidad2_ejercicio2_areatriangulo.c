@@ -1,16 +1,13 @@
-#include<stdio.h>
+#include <stdio.h>
 
 int main()
-
 {
-    float b;
-    float a;
-    float area;
-    printf("Ingrese base del triangulo:\n");
+    float a, b, area;
+    printf("\nIngrese base del triangulo:");
     scanf("%f", &b);
-    printf("Ingrese altura del triangulo:\n");
+    printf("\nIngrese altura del triangulo:");
     scanf("%f", &a);
-    area = (b*a)/2;
-    printf("El area del triangulo es: %5.2f\n",area);
+    area = (b * a) / 2;
+    printf("\nEl area del triangulo es: %5.2f", area);
     return 0;
 }
